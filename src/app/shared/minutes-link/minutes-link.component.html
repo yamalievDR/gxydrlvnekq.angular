@@ -1,1 +1,1 @@
-<a [routerLink]="currentMinutes$ | async">link by minutes</a>
+<a *ngIf="currentMinutes$ | async as currentMinutes" [routerLink]="['/', currentMinutes]">Go to page {{currentMinutes}}</a>

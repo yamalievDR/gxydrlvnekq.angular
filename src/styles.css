@@ -2,7 +2,6 @@
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: #616161;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -92,7 +91,7 @@ label {
   cursor: auto;
 }
 
-/* Fancy Button */
+ /*Fancy Button */
 
 .fancy-button {
   background-color: white;
@@ -122,24 +121,4 @@ app-top-bar h1 {
   margin: 0;
 }
 
-/* Checkout Cart, Shipping Prices */
-
-.cart-item, .shipping-item {
-  width: 100%;
-  min-width: 400px;
-  max-width: 450px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 16px 32px;
-  margin-bottom: 8px;
-  border-radius: 2px;
-  background-color: #EEEEEE;
-}
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
+/*html, body { height: 100%; }*/
