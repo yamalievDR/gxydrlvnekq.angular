@@ -1,6 +1,6 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
-import {Observable, timer} from 'rxjs';
-import {distinctUntilChanged, map} from 'rxjs/operators';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Observable, timer } from 'rxjs';
+import { distinctUntilChanged, map } from 'rxjs/operators';
 
 @Component({
     selector: 'app-minutes-link',

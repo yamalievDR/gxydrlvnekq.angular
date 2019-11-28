@@ -1,18 +1,18 @@
-import {NgModule} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {Route, RouterModule} from '@angular/router';
-import {ReactiveFormsModule} from '@angular/forms';
-import {MAT_SNACK_BAR_DEFAULT_OPTIONS, MatSnackBarModule} from '@angular/material/snack-bar';
+import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MAT_SNACK_BAR_DEFAULT_OPTIONS, MatSnackBarModule } from '@angular/material/snack-bar';
+import { BrowserModule } from '@angular/platform-browser';
+import { Route, RouterModule } from '@angular/router';
 
-import {AppComponent} from './app.component';
-import {TopBarComponent} from './top-bar/top-bar.component';
-import {CartComponent} from './cart/cart.component';
-import {SharedModule} from './shared/shared.module';
-import {Cart2Component} from './cart2/cart2.component';
-import {Cart2Guard} from './cart2/cart2.guard';
-import {HomeComponent} from './home/home.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MinutePageComponent} from './minute-page/minute-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppComponent } from './app.component';
+import { CartComponent } from './cart/cart.component';
+import { Cart2Component } from './cart2/cart2.component';
+import { Cart2Guard } from './cart2/cart2.guard';
+import { HomeComponent } from './home/home.component';
+import { MinutePageComponent } from './minute-page/minute-page.component';
+import { SharedModule } from './shared/shared.module';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 const routes: Route[] = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},

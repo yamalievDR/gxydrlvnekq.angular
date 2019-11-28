@@ -1,0 +1,22 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "arrow-return-shorthand": false,
+        "class-name": false,
+        "component-selector": [
+            false,
+            "element",
+            "app",
+            "kebab-case"
+        ],
+        "curly": [true, "ignore-same-line"],
+        "directive-selector": [
+            true,
+            "attribute",
+            "app",
+            "camelCase"
+        ],
+        "max-line-length": [false],
+        "no-bitwise": false
+    }
+}
